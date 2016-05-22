@@ -2,9 +2,6 @@ package objects.alias;
 
 import static com.juanpickselov.util.Print.print;
 
-/**
- * Created by tomg on 5/21/16.
- */
 public class Assignment {
     public static void main(String[] args) {
         Tank tank1 = new Tank();
