@@ -1,4 +1,4 @@
-package polymorph.shape;
+import polymorph.shape.*;
 
 import static com.juanpickselov.util.Print.*;
 
