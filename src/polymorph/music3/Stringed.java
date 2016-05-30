@@ -13,8 +13,7 @@ public class Stringed extends Instrument {
         print("Stringed.play() " + nte);
     }
 
-    @Override
-    String what(){
+    public String toString(){
         return "Stringed";
     }
 

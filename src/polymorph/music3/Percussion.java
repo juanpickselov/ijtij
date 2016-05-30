@@ -14,8 +14,7 @@ public class Percussion extends Instrument {
         print("Percussion.play() " + nte);
     }
 
-    @Override
-    String what(){
+    public String toString(){
         return "Percussion";
     }
 

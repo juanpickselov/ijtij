@@ -16,7 +16,7 @@ public class Music3 {
         }
     }
     public static void main(String[] args){
-        Instrument[] orchestra = {new Wind(), new Percussion(), new Stringed(), new Brass(), new Woodwind()};
+        Instrument[] orchestra = {new Wind(), new Percussion(), new Stringed(), new Brass(), new Woodwind(), new Synth()};
         tuneAll(orchestra);
     }
 }

@@ -11,7 +11,7 @@ class Instrument {
     void play(Note nte){
         print("Instrument.play() " + nte);
     }
-    String what(){
+    public String toString(){
         return "Instrument";
         }
     void adjust() {

@@ -15,8 +15,7 @@ public class Woodwind extends Wind {
         print("Woodwind.play() " + nte);
     }
 
-    @Override
-    String what(){
+    public String toString(){
         return "Woodwind";
     }
 }

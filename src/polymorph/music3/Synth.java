@@ -7,19 +7,16 @@ import static com.juanpickselov.util.Print.print;
 /**
  * Created by Juan Pickselov on 5/28/16.
  */
-public class Wind extends Instrument {
+public class Synth extends Instrument {
 
     @Override
     void play(Note nte) {
-        print("Wind.play() " + nte);
-    }
-
-    public String toString(){
-        return "Wind";
+        print("Synth.play() " + nte);
     }
 
     @Override
-    void adjust(){
-        print("Adjusting Wind");
+    void adjust() {
+        print("Adjusting Synth");
     }
 }
+
